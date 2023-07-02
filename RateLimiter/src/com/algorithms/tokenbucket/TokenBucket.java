@@ -16,7 +16,7 @@ public class TokenBucket {
 		
 	}
 	
-	public boolean consume() {
+	public boolean isAllowed() {
 		refill();
 		if(currentCapacity > 0) { //tokens available
 			currentCapacity--;
