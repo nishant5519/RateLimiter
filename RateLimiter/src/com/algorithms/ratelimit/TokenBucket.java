@@ -1,4 +1,4 @@
-package com.algorithms.tokenbucket;
+package com.algorithms.ratelimit;
 
 public class TokenBucket {
 	
